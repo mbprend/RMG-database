@@ -73,6 +73,7 @@ Reference legend:
 [Hindelang1993] M.L. Thoma, F.J. Hindelang in: R. Burn, L.Z. Dumitrescu (Ed.) Shock Waves @ Marseille II (Proceedings Marseille France), 1993, 59-64, doi: 10.1007/978-3-642-78832-1
 [Howard1988] J.F. Gleason, C.J. Howard, J. Phys. Chem., 1988, 92(12), 3414-3417, doi: 10.1021/j100323a021
 [Hwang2003] D. Hwang, A. M. Mebel, J. Phys. Chem. A, 2003, 107, 2865-2875, doi: 10.1021/jp0270349
+[Juang1992] R-S Juang, J-F Lianf, J. Chem. Tech. Biotechnol. 1992, 55, 379-383, doi: 10.1002/jctb.280550413
 [Klemm1985] J.V. Michael, J.W. Sutherland, R.B. Klemm, Int. J. Chem. Kin., 1985, 17(3), 315-326, doi: 10.1002/kin.550170308
 [Klemm1990] J.W. Sutherland, P.M. Patterson, R.B. Klemm, J. Phys. Chem., 1990, 94(6), 2471-2475, doi: 10.1021/j100369a049
 [Klippenstein2009a] S.J. Klippenstein, L.B. Harding, B. Ruscic, R. Sivaramakrishnan, N.K. Srinivasan, M.-C. Su, J.V. Michael, J. Phys. Chem. A, 2009, 113(38), 10241-10259, doi: 10.1021/jp905454k
@@ -4716,5 +4717,19 @@ opt, freq: wB97x-D3/6-311++G(3df,3pd)
 sp: CCSD(T)-F12a/aug-cc-pVTZ
 rotors: B3LYP/6-311++G(3df,3pd)
 Fitted to 51 data points; dA = *|/ 1.10125, dn = +|- 0.0117499, dEa = +|- 0.117226 kJ/mol
+""",
+)
+
+entry(
+    index = 266,
+    label = "AIBN <=> N2 + cyanoisopropyl + cyanoisopropyl",
+    degeneracy = 1,
+    kinetics = Arrhenius(A=(5.40379e+15,'s^-1'), n=0, Ea=(132.417,'kJ/mol'),
+                         T0=(1, 'K'), Tmin=(363.6,'K'), Tmax=(380.2,'K')),
+    shortDesc = u"""[Juang1992]""",
+    longDesc =
+u"""
+Measured
+Fig 4, k
 """,
 )

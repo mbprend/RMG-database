@@ -858,3 +858,43 @@ C2H5ONO
 8  H u0 p0 c0 {1,S}
 9  H u0 p0 c0 {2,S}
 10 H u0 p0 c0 {2,S}
+
+cyanoisopropyl
+multiplicity 2
+1  N u0 p1 c0 {5,T}
+2  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+3  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
+4  C u1 p0 c0 {2,S} {3,S} {5,S}
+5  C u0 p0 c0 {1,T} {4,S}
+6  H u0 p0 c0 {2,S}
+7  H u0 p0 c0 {2,S}
+8  H u0 p0 c0 {2,S}
+9  H u0 p0 c0 {3,S}
+10 H u0 p0 c0 {3,S}
+11 H u0 p0 c0 {3,S}
+
+AIBN
+1  N u0 p1 c0 {2,D} {5,S}
+2  N u0 p1 c0 {1,D} {6,S}
+3  N u0 p1 c0 {11,T}
+4  N u0 p1 c0 {12,T}
+5  C u0 p0 c0 {1,S} {7,S} {8,S} {11,S}
+6  C u0 p0 c0 {2,S} {9,S} {10,S} {12,S}
+7  C u0 p0 c0 {5,S} {13,S} {14,S} {15,S}
+8  C u0 p0 c0 {5,S} {16,S} {17,S} {18,S}
+9  C u0 p0 c0 {6,S} {19,S} {20,S} {21,S}
+10 C u0 p0 c0 {6,S} {22,S} {23,S} {24,S}
+11 C u0 p0 c0 {3,T} {5,S}
+12 C u0 p0 c0 {4,T} {6,S}
+13 H u0 p0 c0 {7,S}
+14 H u0 p0 c0 {7,S}
+15 H u0 p0 c0 {7,S}
+16 H u0 p0 c0 {8,S}
+17 H u0 p0 c0 {8,S}
+18 H u0 p0 c0 {8,S}
+19 H u0 p0 c0 {9,S}
+20 H u0 p0 c0 {9,S}
+21 H u0 p0 c0 {9,S}
+22 H u0 p0 c0 {10,S}
+23 H u0 p0 c0 {10,S}
+24 H u0 p0 c0 {10,S}
