@@ -58,6 +58,8 @@ default = {
     '1,2_shiftC',
     '1,2_NH3_elimination',
     '1,3_NH3_elimination',
+    'Fake_amine_hydrolysis',
+    'Fake_HOCK_rearrangement',
 }
 
 # Peroxide chemistry families that are likely relevant in liquid-phase
