@@ -10,7 +10,10 @@ longDesc = u"""
 template(reactants=["CO", "doublebond"], products=["four_ring"], ownReverse=False)
 
 reverse = "Four_Ring_Cleavage_CO"
+
 reversible = True
+
+only_reverse = True
 
 recipe(actions=[
     ['CHANGE_BOND', '*1', -1, '*2'],
