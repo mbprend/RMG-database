@@ -3269,3 +3269,21 @@ u"""
 """,
 )
 
+forbidden(
+    label = "benzene",
+    group =
+"""
+1 *2 C u0 p0 c0 {2,S} {6,S} {7,S}
+2 *3 C u1 p0 c0 {1,S} {3,S}
+3    C u0 p0 c0 {2,S} {4,D}
+4    C u0 p0 c0 {3,D} {5,S}
+5    C u0 p0 c0 {4,S} {6,D}
+6    C u0 p0 c0 {1,S} {5,D}
+7 *4 H u0 p0 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc =
+u"""
+
+""",
+)
