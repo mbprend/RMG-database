@@ -46,9 +46,6 @@ default = {
     'Intra_R_Add_Exocyclic',
     'Intra_R_Add_Exo_scission',
     'Intra_ene_reaction',
-    'R_Addition_COm',
-    'R_Addition_MultipleBond',  # exclude aromatic rings
-    'R_Recombination',  # only forward
     'intra_H_migration',
     'intra_NO2_ONO_conversion',
     'intra_OH_migration',
@@ -56,11 +53,14 @@ default = {
     'intra_substitutionCS_isomerization',
     'intra_substitutionS_cyclization',
     'intra_substitutionS_isomerization',
+    'R_Addition_COm',
+    'R_Addition_MultipleBond',  # exclude aromatic rings
+    'R_Recombination',  # only forward
     'ketoenol',
     'Singlet_Carbene_Intra_Disproportionation',
     'Singlet_Val6_to_triplet',
     'Substitution_O',
-    'Substitution_S',
+    'SubstitutionS',
     'Cyclopentadiene_scission',
     'Fake_amine_hydrolysis',  # custom
     'Fake_HOCK_rearrangement',  # custom
