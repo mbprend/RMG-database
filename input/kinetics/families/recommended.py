@@ -9,12 +9,12 @@
 default = {
     '1+2_Cycloaddition',  # exclude aromatic rings
     '1,2-Birad_to_alkene',  # only forward by default
-    # '1,2_Insertion_CO',
-    # '1,2_Insertion_carbene',
+    '1,2_Insertion_CO',
+    '1,2_Insertion_carbene',
     '1,2_NH3_elimination',
-    # '1,2_shiftC',
-    # '1,2_shiftS',
-    # '1,3_Insertion_CO2',
+    '1,2_shiftC',
+    '1,2_shiftS',
+    '1,3_Insertion_CO2',
     '1,3_Insertion_ROR',  # exclude aromatic rings
     '1,3_Insertion_RSR',  # exclude aromatic rings
     '1,3_NH3_elimination',  # only forward
@@ -32,7 +32,7 @@ default = {
     'Cyclic_Ether_Formation',
     'Cyclic_Thioether_Formation',
     'Diels_alder_addition',
-    'Disproportionation',  # exclude aromatic rings
+    'Disproportionation',  # only forward
     'HO2_Elimination_from_PeroxyRadical',
     'H_Abstraction',  # exclude aromatic rings, don't abstract from a radical site
     'Intra_2+2_cycloaddition_Cd',  # only reverse
@@ -40,8 +40,8 @@ default = {
     'Intra_Diels_alder_monocyclic',
     'Intra_Retro_Diels_alder_bicyclic',
     'Intra_Disproportionation',  # only forward
-    'Intra_RH_Add_Endocyclic',  # only reverse
-    'Intra_RH_Add_Exocyclic',  # only reverse
+    # 'Intra_RH_Add_Endocyclic',
+    # 'Intra_RH_Add_Exocyclic',
     'Intra_R_Add_Endocyclic',
     'Intra_R_Add_Exocyclic',
     'Intra_R_Add_Exo_scission',
