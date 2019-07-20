@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 # This file contains multiple sets of suggested kinetics families for various
 # systems of interest. They can be used by including the name of a set in the
 # kineticsFamilies part of the input file. Multiple sets can be specified at
@@ -81,19 +84,19 @@ liquid_peroxide = {
 }
 
 # Surface chemistry for heterogeneous catalysis.
-surface = {
-    # 'Surface_Adsorption_Single',
-    # 'Surface_Adsorption_vdW',
-    # 'Surface_Adsorption_Dissociative',
-    # 'Surface_Dissociation',
-    # 'Surface_Abstraction',
-}
+# surface = {
+#     'Surface_Adsorption_Single',
+#     'Surface_Adsorption_vdW',
+#     'Surface_Adsorption_Dissociative',
+#     'Surface_Dissociation',
+#     'Surface_Abstraction',
+# }
 
 # Surface chemistry families that are under development and not yet working well.
-surface_development = {
-    # 'Surface_Adsorption_Double',
-    # 'Surface_Dissociation_vdW',
-    # 'Surface_Adsorption_Bidentate',
-    # 'Surface_Bidentate_Dissociation'
-    # # 'Surface_Recombination' #DEPRECATED. USE Surface_Dissociation INSTEAD
-}
+# surface_development = {
+#     'Surface_Adsorption_Double',
+#     'Surface_Dissociation_vdW',
+#     'Surface_Adsorption_Bidentate',
+#     'Surface_Bidentate_Dissociation'
+#     # 'Surface_Recombination' #DEPRECATED. USE Surface_Dissociation INSTEAD
+# }
