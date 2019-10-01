@@ -10,7 +10,7 @@ entry(
     index = 0,
     label = "CC-OOH",
     kinetics = ArrheniusEP(
-        A = (3e+11, 'cm^3/(mol*s)'),
+        A = (3e+11, 's^(-1)'),
         n = 0,
         alpha = 0,
         E0 = (8, 'kcal/mol'),
