@@ -336,7 +336,7 @@ Converted to training reaction from rate rule: diene_unsub_unsub_out;diene_in_2H
 )
 
 entry(
-    index = 20,
+    index = 19,
     label = "C6H6 + C6H4 <=> C12H10",
     degeneracy = 6.0,
     kinetics = Arrhenius(A=(5809, 'cm^3/(mol*s)'), n=2.526, Ea=(5.92, 'kcal/mol'), T0=(1, 'K')),
@@ -351,13 +351,13 @@ entry(
     referenceType = "theory",
     rank = 6,
     longDesc = 
-u"""
+"""
 uCCSD(T) with Dunning's correclation-consistent polarized double basis set (cc-pVDZ), TST.
 """,
 )
 
 entry(
-    index = 21,
+    index = 20,
     label = "C12H10-2 <=> C2H2 + C10H8",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.458e+14, 's^-1'), n=0.0956, Ea=(54.82, 'kcal/mol'), T0=(1, 'K')),
@@ -372,13 +372,13 @@ entry(
     referenceType = "theory",
     rank = 6,
     longDesc = 
-u"""
+"""
 uCCSD(T) with Dunning's correclation-consistent polarized double basis set (cc-pVDZ), TST.
 """,
 )
 
 entry(
-    index = 22,
+    index = 21,
     label = "C12H10-3 + C2H2 <=> C14H12",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -389,7 +389,7 @@ entry(
     ),
     rank = 8,
     longDesc = 
-u"""
+"""
 V. V. Kislov, N. I. Islamova, A. M. Kolker, S. H. Lin, and A. M. Mebel;
 Hydrogen Abstraction Acetylene Addition and Diels-Alder Mechanisms of PAH Formation: A Detailed Study Using First Principles Calculations;
 J. Chem. Theory Comput. 2005, 1, 908-924.
@@ -398,7 +398,7 @@ Original entry: B1 + C2H2 <=> B2
 )
 
 entry(
-    index = 23,
+    index = 22,
     label = "C14H10 + C2H2 <=> C16H12",
     degeneracy = 2.0,
     kinetics = Arrhenius(
@@ -409,7 +409,7 @@ entry(
     ),
     rank = 8,
     longDesc = 
-u"""
+"""
 V. V. Kislov, N. I. Islamova, A. M. Kolker, S. H. Lin, and A. M. Mebel;
 Hydrogen Abstraction Acetylene Addition and Diels-Alder Mechanisms of PAH Formation: A Detailed Study Using First Principles Calculations; 
 J. Chem. Theory Comput. 2005, 1, 908-924.
@@ -418,7 +418,7 @@ Original entry: P + C2H2 <=> P1
 )
 
 entry(
-    index = 24,
+    index = 23,
     label = "C6H6 + C2H2 <=> C8H8",
     degeneracy = 6.0,
     kinetics = Arrhenius(
@@ -431,13 +431,13 @@ entry(
     ),
     rank = 5,
     longDesc = 
-u"""
+"""
 CBS-QB3 calculation by MLIU
 """,
 )
 
 entry(
-    index = 25,
+    index = 24,
     label = "C10H8 + C2H2 <=> C12H10-2",
     degeneracy = 4.0,
     kinetics = Arrhenius(
@@ -450,13 +450,13 @@ entry(
     ),
     rank = 5,
     longDesc = 
-u"""
+"""
 CBS-QB3 calculation by MLIU
 """,
 )
 
 entry(
-    index = 26,
+    index = 25,
     label = "C10H8-2 + C2H2 <=> C12H10-4",
     degeneracy = 8.0,
     kinetics = Arrhenius(
@@ -469,7 +469,7 @@ entry(
     ),
     rank = 5,
     longDesc = 
-u"""
+"""
 CBS-QB3 calculation by MLIU
 """,
 )
