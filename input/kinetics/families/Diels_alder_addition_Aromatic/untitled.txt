@@ -35,3 +35,44 @@ ORIGINAL DIELS ALDERS
     ['CHANGE_BOND', '*5', -1, '*6'],
     ['FORM_BOND', '*1', 1, '*3'],
     ['FORM_BOND', '*2', 1, '*6'],
+    
+    
+    
+# 2021-08-08 WORKING EXAMPLE OF GROUP 0
+entry(
+    index = 0,
+    label = "Root",
+    group = 
+"""
+1 *4 [Cb,Cbf,Cd,S4d,S6d,N3d,N5dc]                                             u0 {2,[S,B]} {3,[D,B]}
+2 *5 [Cb,Cbf,Cd,S4d,S6d,N3d,N5dc]                                             u0 {1,[S,B]} {4,[D,B]}
+3 *3 [Cb,Cbf,Cd]                                                              u0 {1,[D,B]}
+4 *6 [Cb,Cbf,Cd]                                                              u0 {2,[D,B]}
+5 *1 [Cb,Cd,Cdd,CO,CS,O2d,S2d,S4d,S6d,N3d,N5dc,Ct,S4t,S6t,S6td,S6tt,N3t,N5tc] u0 {6,[D,B,T]}
+6 *2 [Cb,Cd,CO,CS,O2d,S2d,S4d,S6d,N3d,N5dc,Ct,S4t,S6t,S6td,S6tt,N3t,N5tc]     u0 {5,[D,B,T]}
+""",
+    kinetics = None,
+)
+
+
+
+
+
+
+# Current minimum working root group 2021-08-10
+entry(
+    index = 0,
+    label = "Root",
+    group = 
+"""
+1 *4 [Cb,Cbf] u0 {2,[S,B]} {3,[D,B]}
+2 *5 [Cb,Cbf] u0 {1,[S,B]} {4,[D,B]}
+3 *3 [Cb,Cbf] u0 {1,[D,B]}
+4 *6 [Cb,Cbf] u0 {2,[D,B]}
+5 *1 Ct       u0 {6,T}
+6 *2 Ct       u0 {5,T}
+""",
+    kinetics = None,
+)
+
+# Next test... The Recipe.
